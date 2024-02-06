@@ -1,0 +1,15 @@
+{
+    "type": "mysql",
+"host": "localhost",
+"port": 3306,
+"username": "root",
+"password": "",
+"database": "blog",
+"entities": ["./entities/*.ts"],
+"synchronize": "false",
+"migrationsTableName":"migration_table",
+"migrations":["migration/*.ts"], 
+"cli":{
+    "migrationsDir" : "migration"
+}
+}
